@@ -1,3 +1,5 @@
+#!/bin/sh
+
 install_prelude () {
     printf " Cloning the repository.\n$RESET"
     if [ x$PRELUDE_VERBOSE != x ]
